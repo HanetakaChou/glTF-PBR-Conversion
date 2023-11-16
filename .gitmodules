@@ -1,0 +1,8 @@
+[submodule "media"]
+	path = media
+	url = git@github.com:HanetakaChou/glTF-PBR-Conversion.git
+	branch = media
+[submodule "thirdparty/DXUT"]
+	path = thirdparty/DXUT
+	url = git@github.com:HanetakaChou/glTF-PBR-Conversion.git
+	branch = DXUT

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{a7c933e8-f964-4aa3-b8f8-94cb8dde6d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{a9ac71e3-a9ba-4a59-95f1-4b934e720b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT">
+      <UniqueIdentifier>{9cb0f9d2-606b-4d9f-b616-fc0cdc1c217a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\Core">
+      <UniqueIdentifier>{973d5437-4556-4ad2-9559-85476d8771ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\DXUT\Optional">
+      <UniqueIdentifier>{7f83c887-50a4-4574-83d2-42728cfdd702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{d21fdc33-9e41-4f7b-b35d-cf626d1bd93e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\thirdparty\DXUT\Core\DDSTextureLoader.cpp">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Core\WICTextureLoader.cpp">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Core\ScreenGrab.cpp">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\thirdparty\DXUT\Optional\SDKmisc.cpp">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\demo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\thirdparty\DXUT\Core\DDSTextureLoader.h">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Core\WICTextureLoader.h">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Core\ScreenGrab.h">
+      <Filter>thirdparty\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\thirdparty\DXUT\Optional\SDKmisc.h">
+      <Filter>thirdparty\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\demo.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\shaders\full_screen_conversion_pixel.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\full_screen_vertex.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\shaders\full_screen_transfer_pixel.hlsl">
+      <Filter>shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
